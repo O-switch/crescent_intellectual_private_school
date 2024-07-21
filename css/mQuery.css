@@ -1,0 +1,53 @@
+@media (max-width: 600px) {
+    header {
+        margin-top: 9rem;
+    }
+
+    .logo {
+        width: 65px;
+        background-color: var(--white);
+    }
+
+    .column {
+        -ms-flex: 500%;
+        flex: 50%;
+        max-width: 50%;
+    }
+
+    .gallery-3,
+    .gallery-4 {
+        display: none;
+    }
+
+    .carousel-caption {
+        bottom: 5rem;
+    }
+}
+
+@media (max-width: 850px) {
+    header {
+        margin-top: 7rem;
+    }
+
+    .column {
+        -ms-flex: 33%;
+        flex: 33%;
+        max-width: 45%;
+        margin: auto;
+    }
+
+    .gallery-4 {
+        display: none;
+    }
+
+    .col-md-4 {
+        width: 32%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        flex: 0 0 auto;
+        width: 32.333333%;
+    }
+}
